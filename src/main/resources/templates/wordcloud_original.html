@@ -1,19 +1,19 @@
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <script src='./js/plugins/echarts/echarts.simple.js'></script>
-        <script src='./js/plugins/wordcloud/echarts-wordcloud.js'></script>
-    </head>
-    <body>
-        <style>
-            html, body, #main {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-            }
-        </style>
-        <div id='main'></div>
-        <script>
+<head>
+<meta charset="utf-8" />
+<script src='./js/plugins/echarts/echarts.simple.js'></script>
+<script src='./js/plugins/wordcloud/echarts-wordcloud.js'></script>
+</head>
+<body>
+	<style>
+html, body, #main {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+</style>
+	<div id='main'></div>
+	<script>
             var chart = echarts.init(document.getElementById('main'));
 
             var option = {
@@ -139,5 +139,5 @@
 
             window.onresize = chart.resize;
         </script>
-    </body>
+</body>
 </html>

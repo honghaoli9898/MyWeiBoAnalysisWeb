@@ -14,9 +14,9 @@ html, body, #main {
 </style>
 	<div id='main'></div>
 	<script th:inline="javascript">
-var wordJsonString = [[${result}]];
-var wordJsonArray = eval(wordJsonString);
-</script>
+		var wordJsonString = [[${result}]];
+		var wordJsonArray = eval(wordJsonString);
+	</script>
 	<script>
       var chart = echarts.init(document.getElementById('main'));
       var option = {

@@ -20,7 +20,6 @@ public class WeiBoDBManager {
 		List<Map<String, Object>> list = jdbcTemplate.queryForList(sql);
 		return list;
 	}
-
 	// 得到json array形式的数据
 	public JSONArray getHotWordsJsonArray() {
 		// 得到List集合形式的数据
